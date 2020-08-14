@@ -13,24 +13,42 @@
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
+<<<<<<< HEAD
   "author": "hyunbingil",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.8",
     "body-parser": "^1.19.0",
+=======
+  "author": "John ahn",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+>>>>>>> acb638fd989facaef53869ae12ff3e3db4950301
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
+<<<<<<< HEAD
     "mongoose": "^5.4.20",
     "react-redux": "^5.1.2",
+=======
+    "mongoose": "^5.9.24",
+    "react-redux": "^5.0.7",
+>>>>>>> acb638fd989facaef53869ae12ff3e3db4950301
     "saslprep": "^1.0.3",
     "supports-color": "^7.1.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
+=======
+    "concurrently": "^5.2.0",
+    "nodemon": "^1.19.1"
+>>>>>>> acb638fd989facaef53869ae12ff3e3db4950301
   }
 }
