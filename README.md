@@ -1,18 +1,11 @@
-Hello, My Friends  
-Thank you for having interest in this repository ! 
-
-To use this application, 
-
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
-
-
-If you have problem, feel free to ask me ^^ 
-
-You can watch the tutorial for this app.
-
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
-
-
+### 🎥 비디오 업로드 FORM
+1. Upload Page 만들기
+2. Upload Page Route 만들기
+3. Upload Page Header Tab 만들기
+4. Form Template 만들기
+5. 파일을 올리는 Template 만들기 위해 Drop-zone 다운받기
+```
+npm install react-dropzone --save
+```
+> save를 해야 다운 받았다고 적혀진다.
+6. onChange func 만들기
